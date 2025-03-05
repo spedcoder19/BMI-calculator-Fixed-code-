@@ -1,0 +1,51 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    background-color: hsl(208, 36%, 69%);
+}
+
+form {
+    background-color: hsl(0, 0%, 90%);
+    color: hsl(74, 50%, 40%);
+    font-size: 1.2em;
+    font-weight: bold;
+    border-radius: 15px;
+    padding: 30px;
+    display: inline-block;
+    text-align: left;
+}
+
+input {
+    width: 200px;
+    height: 25px;
+    font-size: 1em;
+    padding: 5px;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.btn {
+    width: 100px;
+    height: 40px;
+    background-color: hsl(149, 34%, 34%);
+    color: white;
+    border-radius: 5px;
+    border: none;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.btn:hover {
+    background-color: hsla(0, 49%, 50%, 0.8);
+}
+
+.ans {
+    font-size: 1.5em;
+    color: black;
+}
+
+.label1 {
+    color: hsl(0, 62%, 56%);
+    font-size: 1.7em;
+}
